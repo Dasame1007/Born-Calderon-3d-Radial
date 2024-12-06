@@ -100,7 +100,7 @@ end
 """
     FqB(κ, Eig, ξ)
 
-Compute ``\\mathcal{F}q_{\\kappa}^\\mathrm{B}(ξ)`` with as many terms as eigenvalues in Eig.
+Compute ``\\mathcal{F}q_{\\kappa}^\\mathrm{B}(\\xi)`` with as many terms as eigenvalues in Eig.
 """
 function FqB(κ, Eig, ξ)
 
