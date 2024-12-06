@@ -135,14 +135,12 @@ function Fourier(g, N, dr)
     R = (1:N) * dr
 
     aux = Float64.(g.(R) .* R)
-
     GR = [-reverse(aux); 0; aux]
 
     FGΞ = -(2 * pi * dr) * imag(fftshift(fft(ifftshift(GR))))[N+2:end]
-
     Ξ = (1:N) * ((2 * pi) / ((2 * N + 1) * dr))
-
     FG = FGΞ ./ Ξ
+
     return Ξ, FG
 end
 
