@@ -2,7 +2,7 @@ This repository contains the Julia code used to produce the numerical results gi
 
 The Julia module [Born_Calderon_3d_Radial.jl](src/Born_Calderon_3d_Radial.jl) has all necessary functions to compute the eigenvalues of the Dirichlet-to-Neumann map associated to a radial potential on the unit ball and construct from them the associated Born approximation.
 
-The Jupyter notebook [Plots.ipynb](src/Plots.ipynb) presents an example of how to use the module.
+The Jupyter notebook [Example.ipynb](src/Example.ipynb) presents an example of how to use the module.
 
 __Dependencies:__
 - ArbNumerics v1.5.0,
